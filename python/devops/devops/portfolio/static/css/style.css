@@ -1,0 +1,54 @@
+/* Base Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 56px;
+}
+
+.hero {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+/* Skills */
+.skill-card {
+    transition: transform 0.3s;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Projects */
+.project-card {
+    transition: transform 0.3s;
+    height: 100%;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,.1);
+}
+
+/* Contact Form */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero {
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    
+    .hero img {
+        margin-top: 30px;
+    }
+}
